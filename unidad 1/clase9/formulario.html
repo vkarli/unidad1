@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando un formulario</title>
+
+</head>
+
+<body style="background-color: #DDD1F1;"> 
+    <header>
+        <h1> <font face="Gill Sans Ultra Bold"> FORMULARIO</h1></font>
+    </header>
+
+    <main> <font face="Comic Sans MS,arial,verdana">
+        <form >
+            
+            <div class="campo">
+                
+                <label for="nombres">Nombres: </label>
+                <input type="text" name="nombres" id="nombres">
+            </div><br>
+            <div class="campo">
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" name="apellidos" id="apellidos">
+            </div><br>
+            <div class="campo">
+                <label for="email">Correo electrónico: </label>
+                <input type="email" name="email" id="email">
+            </div><br>
+            <div class="campo">
+                <label for="fecha-nacimiento">Fecha de nacimiento: </label>
+                <input type="date" name="fechaNacimiento" id="fecha-nacimiento">
+            </div><br>
+            <div class="campo">
+                <p>Género: </p>
+                <span class="tab"></span><input type="radio" id="f" name="genero" value="f">
+                <label for="f">Femenino</label>
+                <input type="radio" id="m" name="genero" value="m">
+                <label for="m">Masculino</label>
+            </div>
+<br>
+            <div class="campo">
+                <label for="estatura">Estatura: </label>
+                <input class="w-50" type="number" name="estatura" id="estatura" step="any"> metros
+            </div><br>
+            <div class="campo">
+                <label for="peso">Peso: </label>
+                <input class="w-50" type="number" name="peso" id="peso" step="any"> kg
+            </div><br>
+            <div class="campo">
+                <input type="checkbox" id="deporte" name="deporte">
+                <label for="deporte">Realizo deporte regularmente.</label>
+            </div><br>
+            <div class="campo">
+                <button type="button" id="enviar" onclick="datos()">Enviar</button>
+            </div><br>
+        </form></font>
+    </main>
+
+    <footer>
+       &copy; Todos los derechos del autor son reservados
+    </footer>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>

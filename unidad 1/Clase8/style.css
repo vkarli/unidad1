@@ -1,0 +1,42 @@
+.caja-c {
+    border: 2px solid #e4a39f;
+    outline: rgb(236, 233, 192) solid 10px;
+    padding: 20px
+}
+
+body {
+    background-color: rgb(233, 163, 227);
+}
+
+h1 {
+    text-decoration: overline;
+}
+
+.a {
+    text-decoration: line-through;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    text-decoration: underline overline;
+}
+
+img {
+    float: right;
+}
+.b{
+text-align: center;
+}
+.c{
+    text-align: left;
+}
+.d{
+    text-align: right;
+}
+.e{
+    text-align: justify;
+}
+    

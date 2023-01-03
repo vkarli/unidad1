@@ -1,0 +1,55 @@
+.Titulo {
+    background-color: #fdfbd8;
+    text-align: center;
+    font-size: 20px;
+    font-family: Forte;
+}
+
+.fondo {
+    background-image: url(imagenes/copia1.jpg);
+
+}
+
+.parte2 {
+    font-family: Kristen ITC;
+    font-size: 12px;
+}
+
+.caja {
+    font-family: Kristen ITC;
+    font-size: 10px;
+    font-weight: 10;
+    color: #ffffff;
+    background: #b7b8ee;
+    margin: 0px;
+    padding: 1px;
+    text-align: center;
+}
+
+.v {
+    text-align: center;
+
+}
+
+img {
+    float: right;
+    width: 300px;
+    height: 400px;
+}
+
+.v {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.se{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pe{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vi{
+    float: none;
+    width: 500px;
+    height: 400px;
+    margin:70px;
+}
